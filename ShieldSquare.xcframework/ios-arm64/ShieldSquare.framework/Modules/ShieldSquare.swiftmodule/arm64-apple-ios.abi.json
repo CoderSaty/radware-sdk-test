@@ -5750,365 +5750,6 @@
               },
               {
                 "kind": "TypeDecl",
-                "name": "Disk",
-                "printedName": "Disk",
-                "children": [
-                  {
-                    "kind": "Var",
-                    "name": "totalSpace",
-                    "printedName": "totalSpace",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV10totalSpaceSSvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV10totalSpaceSSvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV10totalSpaceSSvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV10totalSpaceSSvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "freeSpace",
-                    "printedName": "freeSpace",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9freeSpaceSSvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9freeSpaceSSvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9freeSpaceSSvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9freeSpaceSSvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "usedSpace",
-                    "printedName": "usedSpace",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9usedSpaceSSvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9usedSpaceSSvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9usedSpaceSSvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV9usedSpaceSSvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "totalSpaceInBytes",
-                    "printedName": "totalSpaceInBytes",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int64",
-                        "printedName": "Swift.Int64",
-                        "usr": "s:s5Int64V"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV17totalSpaceInBytess5Int64VvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV17totalSpaceInBytess5Int64VvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int64",
-                            "printedName": "Swift.Int64",
-                            "usr": "s:s5Int64V"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV17totalSpaceInBytess5Int64VvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV17totalSpaceInBytess5Int64VvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "freeSpaceInBytes",
-                    "printedName": "freeSpaceInBytes",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int64",
-                        "printedName": "Swift.Int64",
-                        "usr": "s:s5Int64V"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16freeSpaceInBytess5Int64VvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16freeSpaceInBytess5Int64VvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int64",
-                            "printedName": "Swift.Int64",
-                            "usr": "s:s5Int64V"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16freeSpaceInBytess5Int64VvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16freeSpaceInBytess5Int64VvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "usedSpaceInBytes",
-                    "printedName": "usedSpaceInBytes",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int64",
-                        "printedName": "Swift.Int64",
-                        "usr": "s:s5Int64V"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16usedSpaceInBytess5Int64VvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16usedSpaceInBytess5Int64VvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int64",
-                            "printedName": "Swift.Int64",
-                            "usr": "s:s5Int64V"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16usedSpaceInBytess5Int64VvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV16usedSpaceInBytess5Int64VvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "freeSpaceInPercentage",
-                    "printedName": "freeSpaceInPercentage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21freeSpaceInPercentageSfvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21freeSpaceInPercentageSfvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Float",
-                            "printedName": "Swift.Float",
-                            "usr": "s:Sf"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21freeSpaceInPercentageSfvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21freeSpaceInPercentageSfvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "usedSpaceInPercentage",
-                    "printedName": "usedSpaceInPercentage",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21usedSpaceInPercentageSfvpZ",
-                    "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21usedSpaceInPercentageSfvpZ",
-                    "moduleName": "ShieldSquare",
-                    "static": true,
-                    "declAttributes": [
-                      "AccessControl",
-                      "RawDocComment"
-                    ],
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Float",
-                            "printedName": "Swift.Float",
-                            "usr": "s:Sf"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21usedSpaceInPercentageSfvgZ",
-                        "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV21usedSpaceInPercentageSfvgZ",
-                        "moduleName": "ShieldSquare",
-                        "static": true,
-                        "accessorKind": "get"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Struct",
-                "usr": "s:12ShieldSquare12SSDeviceInfoV6SystemV4DiskV",
-                "mangledName": "$s12ShieldSquare12SSDeviceInfoV6SystemV4DiskV",
-                "moduleName": "ShieldSquare",
-                "declAttributes": [
-                  "AccessControl",
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "TypeDecl",
                 "name": "Battery",
                 "printedName": "Battery",
                 "children": [
@@ -7294,6 +6935,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShieldSquare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7901,6 +7552,16 @@
         "moduleName": "ShieldSquare",
         "declAttributes": [
           "Infix",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShieldSquare",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -11408,6 +11069,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShieldSquare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ThreadSignaling",
         "printedName": "ThreadSignaling",
@@ -12948,43 +12619,6 @@
           },
           {
             "kind": "Function",
-            "name": "getCookiesFromResponse",
-            "printedName": "getCookiesFromResponse()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12ShieldSquare0A6EngineC22getCookiesFromResponseSDySSypGyFZ",
-            "mangledName": "$s12ShieldSquare0A6EngineC22getCookiesFromResponseSDySSypGyFZ",
-            "moduleName": "ShieldSquare",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "logDebugValues",
             "printedName": "logDebugValues(message:items:)",
             "children": [
@@ -13167,6 +12801,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShieldSquare",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -15127,539 +14771,504 @@
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 17080,
+      "offset": 16990,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 17155,
+      "offset": 17065,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 18348,
+      "offset": 18258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "Array",
-      "offset": 19992,
+      "offset": 19902,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 21211,
+      "offset": 21121,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 21291,
+      "offset": 21201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 22709,
+      "offset": 22619,
       "length": 11,
       "value": "\"magneticX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 22786,
+      "offset": 22696,
       "length": 11,
       "value": "\"magneticY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 22863,
+      "offset": 22773,
       "length": 11,
       "value": "\"magneticZ\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23096,
+      "offset": 23006,
       "length": 11,
       "value": "\"magneticX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23112,
+      "offset": 23022,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23123,
+      "offset": 23033,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23231,
+      "offset": 23141,
       "length": 11,
       "value": "\"magneticY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23247,
+      "offset": 23157,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23258,
+      "offset": 23168,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23366,
+      "offset": 23276,
       "length": 11,
       "value": "\"magneticZ\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23382,
+      "offset": 23292,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23393,
+      "offset": 23303,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23672,
+      "offset": 23582,
       "length": 7,
       "value": "\"gyroX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23684,
+      "offset": 23594,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23695,
+      "offset": 23605,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23793,
+      "offset": 23703,
       "length": 7,
       "value": "\"gyroY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23805,
+      "offset": 23715,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23816,
+      "offset": 23726,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23914,
+      "offset": 23824,
       "length": 7,
       "value": "\"gyroZ\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23926,
+      "offset": 23836,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 23937,
+      "offset": 23847,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24220,
+      "offset": 24130,
       "length": 7,
       "value": "\"acceX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24232,
+      "offset": 24142,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24243,
+      "offset": 24153,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24350,
+      "offset": 24260,
       "length": 7,
       "value": "\"acceY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24362,
+      "offset": 24272,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24373,
+      "offset": 24283,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24480,
+      "offset": 24390,
       "length": 7,
       "value": "\"acceZ\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24492,
+      "offset": 24402,
       "length": 8,
       "value": "\"-10001\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24503,
+      "offset": 24413,
       "length": 8,
       "value": "\"-10002\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24879,
+      "offset": 24789,
       "length": 4,
       "value": "\"na\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24893,
+      "offset": 24803,
       "length": 19,
       "value": "\"accelerometerData\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24960,
+      "offset": 24870,
       "length": 4,
       "value": "\"na\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 24974,
+      "offset": 24884,
       "length": 10,
       "value": "\"gyroData\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 25032,
+      "offset": 24942,
       "length": 4,
       "value": "\"na\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 25046,
+      "offset": 24956,
       "length": 18,
       "value": "\"magnetometerData\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25195,
+      "offset": 25105,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25201,
+      "offset": 25111,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25309,
+      "offset": 25219,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25315,
+      "offset": 25225,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25422,
+      "offset": 25332,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25428,
+      "offset": 25338,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25587,
+      "offset": 25497,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "FloatLiteral",
-      "offset": 25593,
+      "offset": 25503,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 25608,
+      "offset": 25518,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 25660,
+      "offset": 25570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 25674,
+      "offset": 25584,
       "length": 12,
       "value": "\"getSensors\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 26002,
+      "offset": 25912,
       "length": 7,
       "value": "\"acceX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 26080,
+      "offset": 25990,
       "length": 7,
       "value": "\"acceY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 26158,
+      "offset": 26068,
       "length": 7,
       "value": "\"acceZ\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 26514,
+      "offset": 26424,
       "length": 7,
       "value": "\"gyroX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 26592,
+      "offset": 26502,
       "length": 7,
       "value": "\"gyroY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 26670,
+      "offset": 26580,
       "length": 7,
       "value": "\"gyroZ\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 28170,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 29571,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30099,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30698,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 31038,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 31381,
+      "offset": 27809,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 31687,
+      "offset": 28115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 31734,
+      "offset": 28162,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 32749,
+      "offset": 29177,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 32964,
+      "offset": 29392,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 33202,
+      "offset": 29630,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 33225,
+      "offset": 29653,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 33247,
+      "offset": 29675,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 33690,
+      "offset": 30118,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 33823,
+      "offset": 30251,
       "length": 5,
       "value": "\"1.6\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 34037,
+      "offset": 30465,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 34052,
+      "offset": 30480,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSDeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 34065,
+      "offset": 30493,
       "length": 1,
       "value": "\"\""
     },
@@ -16086,1694 +15695,1771 @@
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 993,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1054,
+      "length": 6,
+      "value": "\"-101\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 6,
+      "value": "\"-102\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 6,
+      "value": "\"-103\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1239,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1268,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1293,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1319,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1345,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1370,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1397,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1180,
+      "offset": 1425,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1452,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1239,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1023,
+      "offset": 1268,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1293,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1319,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1345,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1370,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1152,
+      "offset": 1397,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1180,
+      "offset": 1425,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1452,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1517,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1290,
+      "offset": 1535,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1517,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1290,
+      "offset": 1535,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1517,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1290,
+      "offset": 1535,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 211,
+      "offset": 253,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 240,
+      "offset": 282,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 272,
+      "offset": 314,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 303,
+      "offset": 345,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 332,
+      "offset": 374,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 366,
+      "offset": 408,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 399,
+      "offset": 441,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 435,
+      "offset": 477,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 474,
+      "offset": 516,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 505,
+      "offset": 547,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 570,
+      "offset": 612,
       "length": 2,
       "value": "61"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 606,
+      "offset": 648,
       "length": 2,
       "value": "62"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 643,
+      "offset": 685,
       "length": 2,
       "value": "63"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 710,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 774,
       "length": 4,
       "value": "\"e1\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 767,
+      "offset": 809,
       "length": 4,
       "value": "\"e2\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 808,
+      "offset": 850,
       "length": 4,
       "value": "\"e3\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 887,
       "length": 4,
       "value": "\"e4\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 927,
       "length": 4,
       "value": "\"ts\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 959,
+      "offset": 1001,
       "length": 5,
       "value": "\"CRT\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1001,
+      "offset": 1043,
       "length": 6,
       "value": "\"DEST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1092,
       "length": 5,
       "value": "\"RES\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1140,
       "length": 6,
       "value": "\"STOP\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1145,
+      "offset": 1187,
       "length": 7,
       "value": "\"PAUSE\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1228,
       "length": 5,
       "value": "\"ROT\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "Dictionary",
-      "offset": 1270,
+      "offset": 1312,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1310,
+      "offset": 1352,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1344,
+      "offset": 1386,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1372,
+      "offset": 1414,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1401,
+      "offset": 1443,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1433,
+      "offset": 1475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1467,
+      "offset": 1509,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "Dictionary",
-      "offset": 1683,
+      "offset": 1725,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1889,
+      "offset": 1931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1933,
+      "offset": 1975,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1994,
+      "offset": 2036,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1998,
+      "offset": 2040,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2002,
+      "offset": 2044,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2056,
+      "offset": 2098,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2061,
+      "offset": 2103,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2066,
+      "offset": 2108,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2169,
+      "length": 20,
+      "value": "\"ATTESTATION_EXPIRY\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2152,
+      "offset": 2202,
+      "length": 5,
+      "value": "86400"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2289,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2187,
+      "offset": 2324,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2250,
+      "offset": 2387,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2292,
+      "offset": 2429,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2414,
+      "offset": 2551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2458,
+      "offset": 2595,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 2531,
+      "offset": 2668,
       "length": 14,
       "value": "\"captchaQueue\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 2763,
+      "offset": 2900,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 3366,
+      "offset": 3494,
       "length": 9,
       "value": "\"APP KEY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 3448,
+      "offset": 3576,
       "length": 9,
       "value": "\"APP URL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3549,
+      "offset": 3669,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 3710,
-      "length": 3,
-      "value": "5.0"
+      "kind": "StringLiteral",
+      "offset": 3840,
+      "length": 9,
+      "value": "\"__uzmaj\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3865,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3894,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3825,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3885,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4289,
+      "offset": 4447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4344,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4744,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4912,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4959,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5214,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5261,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5553,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5903,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6162,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6242,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6347,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6690,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6975,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7053,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7278,
+      "offset": 4918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 7472,
+      "offset": 5010,
+      "length": 29,
+      "value": "\"Device Check is Not enabled\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5172,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5265,
+      "length": 28,
+      "value": "\"Attestation is Not Enabled\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5814,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6116,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6758,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7017,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7097,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7202,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7546,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7798,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7876,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8101,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8295,
       "length": 23,
       "value": "\"EVENT TIMER TRIGGERED\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7704,
+      "offset": 8527,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 7895,
+      "offset": 8718,
       "length": 22,
       "value": "\"DATA TIMER TRIGGERED\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 8803,
+      "offset": 9626,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 8932,
+      "offset": 9755,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9120,
+      "offset": 9943,
       "length": 9,
       "value": "\"POSTURL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9365,
+      "offset": 10188,
       "length": 7,
       "value": "\"UZMCR\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9536,
+      "offset": 10359,
       "length": 8,
       "value": "\"UZMCRN\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9695,
+      "offset": 10518,
       "length": 8,
       "value": "\"__uzma\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9720,
+      "offset": 10543,
       "length": 8,
       "value": "\"__uzma\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9792,
+      "offset": 10615,
       "length": 8,
       "value": "\"__uzmb\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9817,
+      "offset": 10640,
       "length": 8,
       "value": "\"__uzmb\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9889,
+      "offset": 10712,
       "length": 8,
       "value": "\"__uzmc\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9914,
+      "offset": 10737,
       "length": 8,
       "value": "\"__uzmc\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 9986,
+      "offset": 10809,
       "length": 8,
       "value": "\"__uzmd\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 10011,
+      "offset": 10834,
       "length": 8,
       "value": "\"__uzmd\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 10083,
+      "offset": 10906,
       "length": 8,
       "value": "\"__uzme\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 10108,
+      "offset": 10931,
       "length": 8,
       "value": "\"__uzme\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11084,
+      "offset": 11907,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11308,
+      "offset": 12131,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11373,
+      "offset": 12196,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11656,
+      "offset": 12479,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11721,
+      "offset": 12544,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "Dictionary",
-      "offset": 12580,
+      "offset": 13591,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13102,
+      "offset": 14113,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13219,
+      "offset": 14230,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 13456,
+      "offset": 14467,
       "length": 4,
       "value": "\"NA\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 13901,
+      "offset": 14912,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 13935,
+      "offset": 14946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14138,
+      "offset": 15149,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14335,
+      "offset": 15346,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14418,
+      "offset": 15429,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14619,
+      "offset": 15630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14649,
+      "offset": 15660,
       "length": 4,
       "value": "\"et\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14704,
+      "offset": 15715,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14729,
+      "offset": 15740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14761,
+      "offset": 15772,
       "length": 7,
       "value": "\"zpres\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14798,
+      "offset": 15809,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14832,
+      "offset": 15843,
       "length": 2,
       "value": "99"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14879,
+      "offset": 15890,
       "length": 9,
       "value": "\"_zpsbd0\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 14931,
+      "offset": 15942,
       "length": 9,
       "value": "\"_zpsbd1\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15051,
+      "offset": 16062,
       "length": 9,
       "value": "\"_zpsbd2\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15096,
+      "offset": 16107,
       "length": 9,
       "value": "\"_zpsbd4\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15211,
+      "offset": 16222,
       "length": 9,
       "value": "\"_zpsbd5\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15287,
+      "offset": 16298,
       "length": 9,
       "value": "\"_zpsbd6\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15300,
+      "offset": 16311,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15322,
+      "offset": 16333,
       "length": 9,
       "value": "\"_zpsbd7\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15381,
+      "offset": 16392,
       "length": 9,
       "value": "\"_zpsbd8\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15422,
+      "offset": 16433,
       "length": 9,
       "value": "\"_zpsbd9\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15535,
+      "offset": 16546,
       "length": 9,
       "value": "\"_zpsbdt\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15548,
+      "offset": 16559,
       "length": 13,
       "value": "\"ios \""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15560,
+      "offset": 16571,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15700,
+      "offset": 16711,
       "length": 14,
       "value": "\"_blockdigest\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15864,
+      "offset": 16875,
       "length": 14,
       "value": "\"_blockdigest\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15922,
+      "offset": 16933,
       "length": 9,
       "value": "\"_zpsbd2\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 15990,
+      "offset": 17001,
       "length": 9,
       "value": "\"_zpsbda\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16061,
+      "offset": 17072,
       "length": 8,
       "value": "\"__uzma\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16126,
+      "offset": 17137,
       "length": 8,
       "value": "\"__uzma\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16155,
+      "offset": 17166,
       "length": 8,
       "value": "\"__uzmb\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16220,
+      "offset": 17231,
       "length": 8,
       "value": "\"__uzmb\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16249,
+      "offset": 17260,
       "length": 8,
       "value": "\"__uzmc\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16314,
+      "offset": 17325,
       "length": 8,
       "value": "\"__uzmc\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16343,
+      "offset": 17354,
       "length": 8,
       "value": "\"__uzmd\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16408,
+      "offset": 17419,
       "length": 8,
       "value": "\"__uzmd\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16437,
+      "offset": 17448,
       "length": 8,
       "value": "\"__uzme\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16502,
+      "offset": 17513,
       "length": 8,
       "value": "\"__uzme\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16531,
+      "offset": 17542,
       "length": 8,
       "value": "\"__uzmf\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16596,
+      "offset": 17607,
       "length": 8,
       "value": "\"__uzmf\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16634,
+      "offset": 17645,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16695,
+      "offset": 17706,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16725,
+      "offset": 17736,
       "length": 9,
       "value": "\"__uzmbj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16786,
+      "offset": 17797,
       "length": 9,
       "value": "\"__uzmbj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16816,
+      "offset": 17827,
       "length": 9,
       "value": "\"__uzmcj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16877,
+      "offset": 17888,
       "length": 9,
       "value": "\"__uzmcj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16907,
+      "offset": 17918,
       "length": 9,
       "value": "\"__uzmdj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 16968,
+      "offset": 17979,
       "length": 9,
       "value": "\"__uzmdj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 17007,
+      "offset": 18018,
       "length": 5,
       "value": "\"idn\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 17016,
+      "offset": 18027,
       "length": 6,
       "value": "\"1234\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17206,
+      "offset": 18217,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17223,
+      "offset": 18234,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17240,
+      "offset": 18251,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17257,
+      "offset": 18268,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 17725,
+      "offset": 18736,
       "length": 4,
       "value": "\"et\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 17829,
+      "offset": 18840,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 17880,
+      "offset": 18891,
       "length": 7,
       "value": "\"mdata\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 18165,
+      "offset": 19176,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 19347,
+      "offset": 21135,
       "length": 7,
       "value": "\"mdata\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 19461,
+      "offset": 21249,
       "length": 7,
       "value": "\"mdata\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 19707,
+      "offset": 21500,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 19758,
+      "offset": 21551,
       "length": 17,
       "value": "\"SHOW BLOCK VIEW\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 19955,
+      "offset": 21748,
       "length": 9,
       "value": "\"topView\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 20337,
+      "offset": 22130,
       "length": 25,
       "value": "\"SSCaptchaViewController\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20434,
+      "offset": 22227,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20549,
+      "offset": 22342,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20640,
+      "offset": 22433,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 20737,
+      "offset": 22530,
       "length": 26,
       "value": "\"not able to find topView\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20830,
+      "offset": 22623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 21833,
+      "offset": 23627,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 21884,
+      "offset": 23678,
       "length": 19,
       "value": "\"SHOW CAPTCHA VIEW\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 22082,
+      "offset": 23876,
       "length": 11,
       "value": "\"topView: \""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 22352,
+      "offset": 24146,
       "length": 25,
       "value": "\"SSCaptchaViewController\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22508,
+      "offset": 24302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22676,
+      "offset": 24470,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22773,
+      "offset": 24567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 22832,
+      "offset": 24626,
       "length": 30,
       "value": "\"Not able to find the topView\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23050,
+      "offset": 24845,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23167,
+      "offset": 24962,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 23440,
+      "offset": 25235,
       "length": 21,
       "value": "\"CALL TYPE 4 REQUEST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 23520,
+      "offset": 25315,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 23702,
+      "offset": 25497,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 24247,
+      "offset": 26042,
       "length": 22,
       "value": "\"CALL TYPE 14 REQUEST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 24328,
+      "offset": 26123,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24517,
+      "offset": 26312,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 25059,
+      "offset": 26854,
       "length": 21,
       "value": "\"CALL TYPE 5 REQUEST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 25139,
+      "offset": 26934,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 25324,
+      "offset": 27119,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 25890,
+      "offset": 27685,
       "length": 21,
       "value": "\"CALL TYPE 8 Request\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 25970,
+      "offset": 27765,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26164,
+      "offset": 27959,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26596,
+      "offset": 28426,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26622,
+      "offset": 28450,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28503,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26695,
+      "offset": 28529,
+      "length": 9,
+      "value": "\"__uzmaj\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28602,
       "length": 9,
       "value": "\"__uzmbj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26721,
+      "offset": 28628,
       "length": 9,
       "value": "\"__uzmbj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26794,
+      "offset": 28701,
       "length": 9,
       "value": "\"__uzmcj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26820,
+      "offset": 28727,
       "length": 9,
       "value": "\"__uzmcj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26893,
+      "offset": 28800,
       "length": 9,
       "value": "\"__uzmdj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 26919,
+      "offset": 28826,
       "length": 9,
       "value": "\"__uzmdj\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
+      "kind": "StringLiteral",
+      "offset": 28952,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27105,
+      "offset": 29186,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 27262,
+      "offset": 29343,
       "length": 20,
       "value": "\"MOBILE APP REQUEST\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 27341,
+      "offset": 29422,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 27761,
+      "offset": 29842,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 28020,
+      "offset": 30101,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 28293,
+      "offset": 30374,
       "length": 8,
       "value": "\"ssresp\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 28400,
+      "offset": 30481,
       "length": 23,
       "value": "\"RESPONSE CALLTYPE SIX\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28593,
+      "offset": 30674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "FloatLiteral",
-      "offset": 28917,
+      "offset": 30998,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29139,
+      "offset": 31220,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 31618,
+      "offset": 33699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 31714,
+      "offset": 33795,
       "length": 3,
       "value": "\"P\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 31786,
+      "offset": 33867,
       "length": 5,
       "value": "\"PUD\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 31866,
+      "offset": 33947,
       "length": 4,
       "value": "\"LL\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 31942,
+      "offset": 34023,
       "length": 4,
       "value": "\"LR\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 32005,
+      "offset": 34086,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 32542,
+      "offset": 34623,
       "length": 53,
       "value": "\"finding topViewController Current ViewController is\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 33302,
+      "offset": 35383,
       "length": 60,
       "value": "\"finding topMostViewController, current ViewController is: \""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldManager.swift",
       "kind": "StringLiteral",
-      "offset": 34112,
+      "offset": 36193,
       "length": 18,
       "value": "\"Not a valid JSON\""
     },
@@ -19430,6 +19116,314 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 21,
+      "value": "\"ENABLE_DEVICE_CHECK\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 26,
+      "value": "\"DEVICE_CHECK_ON_RELAUNCH\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 20,
+      "value": "\"ENABLE_ATTESTATION\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 23,
+      "value": "\"ASSERTION_ON_RELAUNCH\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 20,
+      "value": "\"ATTESTATION_EXPIRY\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 18,
+      "value": "\"SS_RECAPTCHA_KEY\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 501,
+      "length": 21,
+      "value": "\"SS_RECAPTCHA_DOMAIN\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 18,
+      "value": "\"SS_CONTACT_EMAIL\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 18,
+      "value": "\"SS_SUBSCRIBER_ID\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 17,
+      "value": "\"APP_ENVIRONMENT\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 21,
+      "value": "\"CUSTOM_INTERCEPTION\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 25,
+      "value": "\"RDWR_REACT_INTERCEPTION\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 27,
+      "value": "\"RDWR_REACT_ENABLED_DOMAIN\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 25,
+      "value": "\"SS_EVENTS_TIME_INTERVAL\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 25,
+      "value": "\"SS_EVENTS_DATA_INTERVAL\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 27,
+      "value": "\"SS_EVENTS_RESPONSE_ACTION\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1046,
+      "length": 21,
+      "value": "\"SS_MAX_EVENTS_COUNT\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1204,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1252,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1310,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1356,
+      "length": 5,
+      "value": "86400"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1515,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1652,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1746,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2103,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2280,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2452,
+      "length": 5,
+      "value": "86400"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2696,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2780,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 2869,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 2945,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "StringLiteral",
+      "offset": 3027,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/PersistantStorage\/PlistReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3171,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldUtility.swift",
       "kind": "StringLiteral",
       "offset": 358,
@@ -20804,203 +20798,238 @@
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
-      "length": 27,
-      "value": "\"RDWR_REACT_ENABLED_DOMAIN\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
-      "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1073,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1163,
       "length": 12,
       "value": "\"mobiledata\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 1294,
+      "offset": 1198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 1411,
+      "offset": 1342,
+      "length": 21,
+      "value": "\"RDWR_REACT_HOSTNAME\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1415,
+      "length": 6,
+      "value": "\"www.\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1460,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
       "length": 43,
       "value": "\"Extracted Url host for react interception\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 1555,
+      "offset": 1671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 1697,
+      "offset": 1822,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 1728,
+      "offset": 1853,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 2092,
+      "offset": 2217,
       "length": 12,
       "value": "\"mobiledata\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 2110,
+      "offset": 2235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 2262,
+      "offset": 2387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 2512,
+      "offset": 2637,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 2605,
+      "offset": 2730,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 3136,
+      "length": 6,
+      "value": "\"www.\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3182,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 3590,
+      "offset": 3970,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 3724,
+      "offset": 4104,
       "length": 12,
       "value": "\"mobiledata\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "BooleanLiteral",
-      "offset": 3741,
+      "offset": 4121,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "Dictionary",
-      "offset": 3952,
+      "offset": 4332,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 3993,
+      "offset": 4373,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 4095,
+      "offset": 4475,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 4175,
+      "offset": 4555,
       "length": 38,
       "value": "\"Trackbot non captcha or non immunity\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 4350,
+      "offset": 4730,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 4412,
+      "offset": 4792,
       "length": 18,
       "value": "\"Response captcha\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 4596,
+      "offset": 4976,
       "length": 40,
       "value": "\"Waiting for captcha solve notification\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 4874,
+      "offset": 5254,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "IntegerLiteral",
-      "offset": 4950,
+      "offset": 5330,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 5016,
+      "offset": 5396,
       "length": 19,
       "value": "\"Async thread wait\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 5478,
+      "offset": 5858,
       "length": 26,
       "value": "\"Triggering retry request\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 5632,
+      "offset": 6012,
       "length": 6,
       "value": "\"true\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSURLProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 5660,
+      "offset": 6040,
       "length": 7,
       "value": "\"zpsrt\""
     },
@@ -21280,212 +21309,226 @@
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2776,
+      "offset": 2685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2783,
+      "offset": 2692,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2805,
+      "offset": 2714,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2812,
+      "offset": 2721,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2834,
+      "offset": 2743,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2841,
+      "offset": 2750,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2863,
+      "offset": 2772,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2870,
+      "offset": 2779,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2892,
+      "offset": 2801,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 2899,
+      "offset": 2808,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 3476,
+      "offset": 3385,
       "length": 10,
       "value": "0x00000000"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3470,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3557,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
       "offset": 3561,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3648,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3652,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 4231,
+      "offset": 4057,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 4398,
+      "offset": 4224,
       "length": 10,
       "value": "0x00000000"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 4740,
+      "offset": 4566,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 4844,
+      "offset": 4670,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 4928,
+      "offset": 4754,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 4934,
+      "offset": 4760,
       "length": 4,
       "value": "0x80"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 5094,
+      "offset": 4920,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 5098,
+      "offset": 4924,
       "length": 2,
       "value": "56"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 5193,
+      "offset": 5019,
       "length": 10,
       "value": "0x00000000"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 5351,
+      "offset": 5177,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "StringLiteral",
-      "offset": 5972,
+      "offset": 5798,
       "length": 26,
       "value": "\"%08X %08X %08X %08X %08X\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 6004,
+      "offset": 5830,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 6012,
+      "offset": 5838,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 6020,
+      "offset": 5846,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 6028,
+      "offset": 5854,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SHA1.swift",
       "kind": "IntegerLiteral",
-      "offset": 6036,
+      "offset": 5862,
       "length": 1,
       "value": "4"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/ET63\/DeviceCheck\/SSDeviceCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/Services\/ET63\/DeviceCheck\/SSDeviceCheck.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSReachability.swift",
@@ -23107,21 +23150,21 @@
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 228,
+      "offset": 233,
       "length": 21,
       "value": "\"ENABLE_DEVICE_CHECK\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 284,
+      "offset": 289,
       "length": 26,
       "value": "\"DEVICE_CHECK_ON_RELAUNCH\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 339,
+      "offset": 344,
       "length": 20,
       "value": "\"ENABLE_ATTESTATION\""
     },
@@ -23129,785 +23172,708 @@
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
       "offset": 393,
-      "length": 25,
-      "value": "\"ATTESTATION_ON_RELAUNCH\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 447,
       "length": 20,
       "value": "\"ATTESTATION_EXPIRY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 497,
-      "length": 16,
-      "value": "\"dosixtythreedc\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 17,
-      "value": "\"dosixtythreeatt\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 615,
+      "offset": 467,
       "length": 6,
       "value": "\"zpsi\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 502,
       "length": 6,
       "value": "\"zpsj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 685,
+      "offset": 537,
       "length": 6,
       "value": "\"zpsk\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 564,
       "length": 6,
       "value": "\"zpsl\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 592,
       "length": 6,
       "value": "\"zpsm\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 774,
+      "offset": 626,
       "length": 6,
       "value": "\"zpsn\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 658,
+      "length": 6,
+      "value": "\"zpss\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
       "length": 17,
       "value": "\"lastDeviceCheck\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 850,
+      "offset": 734,
       "length": 6,
       "value": "\"zpso\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 765,
       "length": 6,
       "value": "\"zpsp\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 805,
       "length": 17,
       "value": "\"attestationDone\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 852,
       "length": 6,
       "value": "\"zpsq\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 1000,
+      "offset": 885,
       "length": 6,
       "value": "\"zpsr\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 1028,
+      "offset": 916,
       "length": 17,
       "value": "\"lastAttestation\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1068,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1091,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 16,
+      "value": "\"lastAssesrtion\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1112,
+      "offset": 992,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1136,
+      "offset": 1016,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1044,
       "length": 4,
       "value": "3600"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1186,
+      "offset": 1066,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1429,
+      "offset": 1104,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1504,
+      "offset": 1181,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1588,
+      "offset": 1204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1672,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2084,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2461,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2545,
+      "offset": 1223,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "IntegerLiteral",
-      "offset": 2619,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2688,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2751,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2778,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2801,
+      "offset": 1284,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2848,
+      "offset": 1314,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2909,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 2969,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 3025,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 3081,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 3135,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3347,
+      "offset": 1348,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3422,
+      "offset": 1378,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "IntegerLiteral",
-      "offset": 3503,
+      "offset": 1731,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3579,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3642,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 1842,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 3738,
-      "length": 2,
+      "offset": 2212,
+      "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3859,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3934,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 3990,
+      "offset": 2230,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 4030,
+      "offset": 2236,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 4095,
+      "offset": 2240,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 2258,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 4136,
+      "offset": 2264,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4471,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4502,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 2268,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "IntegerLiteral",
-      "offset": 4532,
+      "offset": 2364,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 4558,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4586,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4664,
-      "length": 5,
-      "value": "86400"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4774,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4855,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5085,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5167,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5546,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5613,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5654,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5677,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5739,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5810,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5865,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5938,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5995,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6137,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6188,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6256,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6323,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6362,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6501,
+      "offset": 2477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 6937,
-      "length": 3,
-      "value": "\"0\""
+      "offset": 2521,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 2680,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 2773,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 2867,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 3093,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7002,
+      "offset": 3600,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3675,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3756,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3904,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 7160,
+      "offset": 4122,
+      "length": 51,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 4137,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 4143,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 4147,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 4162,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 4168,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 4172,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 5171,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 5302,
       "length": 36,
       "value": "\"Device Check generate token failed\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 5649,
+      "length": 28,
+      "value": "\"Device check not supported\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7430,
+      "offset": 6176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 7610,
+      "offset": 6201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6295,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6412,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6581,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 7754,
+      "offset": 6671,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 7902,
+      "offset": 6696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 8130,
+      "offset": 6829,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 7506,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8463,
+      "offset": 7536,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 7597,
+      "length": 44,
+      "value": "\"attestation failed - no challenge received\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7855,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 8508,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 8589,
-      "length": 42,
-      "value": "\"assertion failed - no challenge received\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 8828,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9065,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9103,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 9573,
-      "length": 18,
-      "value": "\"Assertion failed\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9842,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 10173,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10237,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 10732,
-      "length": 32,
-      "value": "\"Attestation certify key failed\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11015,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 11363,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11427,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 11958,
-      "length": 32,
-      "value": "\"Attestation GenerateKey failed\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12241,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "StringLiteral",
-      "offset": 12571,
-      "length": 31,
-      "value": "\"App Attestation not supported\""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12799,
+      "offset": 7895,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "IntegerLiteral",
-      "offset": 12974,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13069,
+      "offset": 8108,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13153,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13232,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "StringLiteral",
-      "offset": 13316,
-      "length": 5,
-      "value": "\" - \""
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13492,
-      "length": 1,
-      "value": "1"
+      "offset": 8225,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 13517,
+      "offset": 8344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
       "kind": "BooleanLiteral",
-      "offset": 13652,
+      "offset": 8369,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 8460,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 8479,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8908,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8946,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9216,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 9681,
+      "length": 18,
+      "value": "\"Assertion failed\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 10195,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 10374,
+      "length": 39,
+      "value": "\"asserion string is nil for attest key\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 10689,
+      "length": 48,
+      "value": "\"asserion string is nil for the this attest key\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 11546,
+      "length": 32,
+      "value": "\"Attestation certify key failed\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 12190,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 12482,
+      "length": 39,
+      "value": "\"object is nil for the this attest key\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12966,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 13461,
+      "length": 32,
+      "value": "\"Attestation GenerateKey failed\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 14137,
+      "length": 31,
+      "value": "\"App Attestation not supported\""
+    },
+    {
+      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/SSAttestation.swift",
+      "kind": "StringLiteral",
+      "offset": 14486,
+      "length": 31,
+      "value": "\"App Attestation not supported\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/String+MD5.swift",
@@ -24611,463 +24577,449 @@
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
-      "kind": "FloatLiteral",
-      "offset": 1932,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1976,
+      "offset": 2004,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 2050,
+      "offset": 2078,
       "length": 28,
       "value": "\"contactus@shieldsquare.com\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 2164,
+      "offset": 2192,
       "length": 73,
       "value": "\"Subscriber Key not found. Please add subscriber key in plist.info file.\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3843,
+      "offset": 3775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 5130,
+      "offset": 5062,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 5423,
+      "offset": 5355,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 5762,
+      "offset": 5694,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "Dictionary",
-      "offset": 5798,
+      "offset": 5730,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7111,
+      "offset": 7043,
       "length": 17,
       "value": "\"RESPONSE is Nil\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7137,
+      "offset": 7069,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7246,
+      "offset": 7178,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7662,
+      "offset": 7594,
       "length": 18,
       "value": "\"SS_RECAPTCHA_KEY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7746,
+      "offset": 7678,
       "length": 21,
       "value": "\"SS_RECAPTCHA_DOMAIN\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 7886,
+      "offset": 7818,
       "length": 29,
       "value": "\"SSReCaptchaKey not provided\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8083,
+      "offset": 8015,
       "length": 32,
       "value": "\"SSReCaptchaDomain not provided\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8214,
+      "offset": 8146,
       "length": 13,
       "value": "\"CAPTCHA KEY\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8291,
+      "offset": 8223,
       "length": 16,
       "value": "\"CAPTCHA DOMAIN\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 8401,
+      "offset": 8333,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8449,
+      "offset": 8381,
       "length": 22,
       "value": "\"SSID is nil or empty\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8763,
+      "offset": 8695,
       "length": 26,
       "value": "\"RESPONSE HEADERS COOKIES\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 8939,
+      "offset": 8871,
       "length": 9,
       "value": "\"posturl\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9099,
+      "offset": 9031,
       "length": 10,
       "value": "\"trkevent\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 9154,
+      "offset": 9086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9192,
+      "offset": 9124,
       "length": 6,
       "value": "\"True\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 9237,
+      "offset": 9169,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 9545,
+      "offset": 9477,
       "length": 30,
       "value": "\"Shieldengine not initialized\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 10206,
+      "offset": 10138,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 10860,
+      "offset": 10788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11307,
+      "offset": 11235,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11380,
+      "offset": 11308,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 11564,
+      "offset": 11492,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12240,
+      "offset": 12168,
       "length": 8,
       "value": "\"__uzma\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12318,
+      "offset": 12246,
       "length": 8,
       "value": "\"__uzmb\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12396,
+      "offset": 12324,
       "length": 8,
       "value": "\"__uzmc\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12474,
+      "offset": 12402,
       "length": 8,
       "value": "\"__uzmd\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12552,
+      "offset": 12480,
       "length": 8,
       "value": "\"__uzme\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12630,
+      "offset": 12558,
       "length": 8,
       "value": "\"__uzmf\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12677,
+      "offset": 12605,
       "length": 8,
       "value": "\"__uzma\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12705,
+      "offset": 12633,
       "length": 8,
       "value": "\"__uzmb\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12733,
+      "offset": 12661,
       "length": 8,
       "value": "\"__uzmc\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12761,
+      "offset": 12689,
       "length": 8,
       "value": "\"__uzmd\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12789,
+      "offset": 12717,
       "length": 8,
       "value": "\"__uzme\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12817,
+      "offset": 12745,
       "length": 8,
       "value": "\"__uzmf\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12845,
+      "offset": 12773,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12888,
+      "offset": 12816,
       "length": 9,
       "value": "\"__uzmaj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12912,
+      "offset": 12840,
       "length": 9,
       "value": "\"__uzmbj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12955,
+      "offset": 12883,
       "length": 9,
       "value": "\"__uzmbj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 12979,
+      "offset": 12907,
       "length": 9,
       "value": "\"__uzmcj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13022,
+      "offset": 12950,
       "length": 9,
       "value": "\"__uzmcj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13046,
+      "offset": 12974,
       "length": 9,
       "value": "\"__uzmdj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13089,
+      "offset": 13017,
       "length": 9,
       "value": "\"__uzmdj\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13113,
+      "offset": 13041,
       "length": 9,
       "value": "\"zpset61\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13156,
+      "offset": 13084,
       "length": 9,
       "value": "\"zpset61\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13220,
+      "offset": 13148,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13286,
+      "offset": 13214,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13303,
+      "offset": 13231,
       "length": 6,
       "value": "\"zpst\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13311,
+      "offset": 13239,
       "length": 13,
       "value": "\"ios \""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "StringLiteral",
-      "offset": 13323,
+      "offset": 13251,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13504,
+      "offset": 13432,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 13514,
+      "offset": 13442,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 13620,
+      "offset": 13548,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 13630,
+      "offset": 13558,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "FloatLiteral",
-      "offset": 13894,
+      "offset": 13822,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
-      "kind": "Dictionary",
-      "offset": 14240,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/radwaressq\/Desktop\/sdk\/ios_captcha-sdk\/ShieldSquare\/ShieldEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 14784,
+      "offset": 14280,
       "length": 1,
       "value": "0"
     },

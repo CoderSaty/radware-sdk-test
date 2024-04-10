@@ -308,32 +308,6 @@ public struct SSDeviceInfo {
         }
       }
     }
-    public struct Disk {
-      public static var totalSpace: Swift.String {
-        get
-      }
-      public static var freeSpace: Swift.String {
-        get
-      }
-      public static var usedSpace: Swift.String {
-        get
-      }
-      public static var totalSpaceInBytes: Swift.Int64 {
-        get
-      }
-      public static var freeSpaceInBytes: Swift.Int64 {
-        get
-      }
-      public static var usedSpaceInBytes: Swift.Int64 {
-        get
-      }
-      public static var freeSpaceInPercentage: Swift.Float {
-        get
-      }
-      public static var usedSpaceInPercentage: Swift.Float {
-        get
-      }
-    }
     public struct Battery {
       public static var level: Swift.Float? {
         get
@@ -568,7 +542,6 @@ public struct SSEventType {
   public static func getValueFromCookie(domain: Swift.String?, key: Swift.String) -> Swift.String
   @objc public static func getApiHeaders(requestUrl: Swift.String) -> [Swift.String : Swift.String]
   @objc public static func logShieldEvents(resultObject: Foundation.HTTPURLResponse?)
-  public static func getCookiesFromResponse() -> [Swift.String : Any]
   public static func logDebugValues(message: Swift.String?, items: Any?)
   public static func getLastCaptchaSolveTime() -> Swift.Int
   public static func setLastCapthaSolveTime()
