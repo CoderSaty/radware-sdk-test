@@ -114,6 +114,18 @@ extension ShieldSquare.SSDevice : Swift.CustomStringConvertible {
     get
   }
 }
+@_inheritsConvenienceInitializers @objc public class ShieldConfiguration : ObjectiveC.NSObject {
+  @objc public var subscriberId: Swift.String?
+  @_inheritsConvenienceInitializers @objc public class Builder : ObjectiveC.NSObject {
+    @objc public func setSubscriberId(_ subscriberId: Swift.String) -> ShieldSquare.ShieldConfiguration.Builder
+    @objc public func build() -> ShieldSquare.ShieldConfiguration
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc public class func builder() -> ShieldSquare.ShieldConfiguration.Builder
+  @objc override dynamic public init()
+  @objc deinit
+}
 public enum SSReCaptchaResult {
   case token(Swift.String)
   case error(ShieldSquare.SSReCaptchaError)
@@ -524,13 +536,14 @@ public struct SSEventType {
     public static let sstextcaptcha: Swift.Int
     public static let ssrecaptcha: Swift.Int
   }
-  @objc public static func setup(keyWindow: UIKit.UIWindow, verifyViewType: Swift.Int = ShieldEngine.SSCaptchaViewType.sscheckboxcaptcha)
+  @objc public static func setup(keyWindow: UIKit.UIWindow, verifyViewType: Swift.Int)
+  @objc public static func setup(keyWindow: UIKit.UIWindow, verifyViewType: Swift.Int = ShieldEngine.SSCaptchaViewType.sscheckboxcaptcha, configuration: ShieldSquare.ShieldConfiguration? = nil)
   @objc public static func enableSSLogs(enableLogs: Swift.Bool = false)
   @objc public static func setUserId(userId: Swift.String)
   public static func makeCalltypeFive()
   public static func makeCalltypeEight()
   public func getBlockDigestID() -> Swift.String
-  public func getContactEmail() -> Swift.String
+  public func getContactEmail() -> Swift.String?
   @objc public static func trackEvents(eventName: Swift.String?, screenName: Swift.String? = "", eventParams: [Swift.String : Any]? = [:])
   public static func trackBot(httpResponseObject: Foundation.HTTPURLResponse?)
   public static func setLastRequestedURL(url: Swift.String)

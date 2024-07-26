@@ -352,10 +352,29 @@ SWIFT_CLASS("_TtC12ShieldSquare13SSURLProtocol")
 - (void)URLSessionDidFinishEventsForBackgroundURLSession:(NSURLSession * _Nonnull)session;
 @end
 
+@class Builder;
+
+SWIFT_CLASS("_TtC12ShieldSquare19ShieldConfiguration")
+@interface ShieldConfiguration : NSObject
+@property (nonatomic, copy) NSString * _Nullable subscriberId;
++ (Builder * _Nonnull)builder SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtCC12ShieldSquare19ShieldConfiguration7Builder")
+@interface Builder : NSObject
+- (Builder * _Nonnull)setSubscriberId:(NSString * _Nonnull)subscriberId SWIFT_WARN_UNUSED_RESULT;
+- (ShieldConfiguration * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 
 SWIFT_CLASS("_TtC12ShieldSquare12ShieldEngine")
 @interface ShieldEngine : NSObject
+/// overloading setup function as in objective c default arguments are not directly exposed
++ (void)setupWithKeyWindow:(UIWindow * _Nonnull)keyWindow verifyViewType:(NSInteger)verifyViewType;
 /// This is the initilization method for the SDK
 /// note:
 /// For ReCAPTCHA add the key and domain in the plist.info
@@ -371,11 +390,13 @@ SWIFT_CLASS("_TtC12ShieldSquare12ShieldEngine")
 ///   </li>
 /// </ul>
 ///
+/// \param configuration a class containing the values of sdk configuration like subscriber Id and others
+///
 ///
 /// returns:
 ///
 /// void
-+ (void)setupWithKeyWindow:(UIWindow * _Nonnull)keyWindow verifyViewType:(NSInteger)verifyViewType;
++ (void)setupWithKeyWindow:(UIWindow * _Nonnull)keyWindow verifyViewType:(NSInteger)verifyViewType configuration:(ShieldConfiguration * _Nullable)configuration;
 + (void)enableSSLogsWithEnableLogs:(BOOL)enableLogs;
 /// To set the user ID of the visitor if the user has logged in.
 /// \param userId userId for the logged in user
@@ -768,10 +789,29 @@ SWIFT_CLASS("_TtC12ShieldSquare13SSURLProtocol")
 - (void)URLSessionDidFinishEventsForBackgroundURLSession:(NSURLSession * _Nonnull)session;
 @end
 
+@class Builder;
+
+SWIFT_CLASS("_TtC12ShieldSquare19ShieldConfiguration")
+@interface ShieldConfiguration : NSObject
+@property (nonatomic, copy) NSString * _Nullable subscriberId;
++ (Builder * _Nonnull)builder SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtCC12ShieldSquare19ShieldConfiguration7Builder")
+@interface Builder : NSObject
+- (Builder * _Nonnull)setSubscriberId:(NSString * _Nonnull)subscriberId SWIFT_WARN_UNUSED_RESULT;
+- (ShieldConfiguration * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 
 SWIFT_CLASS("_TtC12ShieldSquare12ShieldEngine")
 @interface ShieldEngine : NSObject
+/// overloading setup function as in objective c default arguments are not directly exposed
++ (void)setupWithKeyWindow:(UIWindow * _Nonnull)keyWindow verifyViewType:(NSInteger)verifyViewType;
 /// This is the initilization method for the SDK
 /// note:
 /// For ReCAPTCHA add the key and domain in the plist.info
@@ -787,11 +827,13 @@ SWIFT_CLASS("_TtC12ShieldSquare12ShieldEngine")
 ///   </li>
 /// </ul>
 ///
+/// \param configuration a class containing the values of sdk configuration like subscriber Id and others
+///
 ///
 /// returns:
 ///
 /// void
-+ (void)setupWithKeyWindow:(UIWindow * _Nonnull)keyWindow verifyViewType:(NSInteger)verifyViewType;
++ (void)setupWithKeyWindow:(UIWindow * _Nonnull)keyWindow verifyViewType:(NSInteger)verifyViewType configuration:(ShieldConfiguration * _Nullable)configuration;
 + (void)enableSSLogsWithEnableLogs:(BOOL)enableLogs;
 /// To set the user ID of the visitor if the user has logged in.
 /// \param userId userId for the logged in user
